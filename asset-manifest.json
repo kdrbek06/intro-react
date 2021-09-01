@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/intro-react/static/js/main.c8559b35.chunk.js",
-    "main.js.map": "/intro-react/static/js/main.c8559b35.chunk.js.map",
-    "runtime-main.js": "/intro-react/static/js/runtime-main.46e1df74.js",
-    "runtime-main.js.map": "/intro-react/static/js/runtime-main.46e1df74.js.map",
-    "static/css/2.818011ed.chunk.css": "/intro-react/static/css/2.818011ed.chunk.css",
-    "static/js/2.a2097672.chunk.js": "/intro-react/static/js/2.a2097672.chunk.js",
-    "static/js/2.a2097672.chunk.js.map": "/intro-react/static/js/2.a2097672.chunk.js.map",
-    "index.html": "/intro-react/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/intro-react/static/css/2.818011ed.chunk.css.map",
-    "static/js/2.a2097672.chunk.js.LICENSE.txt": "/intro-react/static/js/2.a2097672.chunk.js.LICENSE.txt"
+    "main.js": "/kdrbek06/intro-react/static/js/main.c8559b35.chunk.js",
+    "main.js.map": "/kdrbek06/intro-react/static/js/main.c8559b35.chunk.js.map",
+    "runtime-main.js": "/kdrbek06/intro-react/static/js/runtime-main.908847da.js",
+    "runtime-main.js.map": "/kdrbek06/intro-react/static/js/runtime-main.908847da.js.map",
+    "static/css/2.818011ed.chunk.css": "/kdrbek06/intro-react/static/css/2.818011ed.chunk.css",
+    "static/js/2.a2097672.chunk.js": "/kdrbek06/intro-react/static/js/2.a2097672.chunk.js",
+    "static/js/2.a2097672.chunk.js.map": "/kdrbek06/intro-react/static/js/2.a2097672.chunk.js.map",
+    "index.html": "/kdrbek06/intro-react/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/kdrbek06/intro-react/static/css/2.818011ed.chunk.css.map",
+    "static/js/2.a2097672.chunk.js.LICENSE.txt": "/kdrbek06/intro-react/static/js/2.a2097672.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.46e1df74.js",
+    "static/js/runtime-main.908847da.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.a2097672.chunk.js",
     "static/js/main.c8559b35.chunk.js"
