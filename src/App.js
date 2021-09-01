@@ -47,6 +47,7 @@ function App() {
     }
 
 
+    //
     function handleClearTodos(){
         const newTodos = todos.filter(todo => !todo.complete)
         setTodos(newTodos)
