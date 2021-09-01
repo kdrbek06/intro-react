@@ -1,5 +1,8 @@
+//{Named} import
 import React, { useState, useRef,useEffect } from 'react';
 import TodoList from "./TodoList";
+
+//We defined the v4 method as uuidv4 (this creates random id)
 import { v4 as uuidv4 } from 'uuid';
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
@@ -27,7 +30,7 @@ function App() {
       return (
          <>
            <TodoList todos={todos}/>
-           <input ref={todoNameRef} type="text" />
+           <input ref={todoNameRef} placeholder="Enter A ToDo..." type="text" />
            <button onClick={handleAddTodo}>Add Todo</button>
            <button>Clear Completed Todos</button>
            <div>0 left to do</div>
