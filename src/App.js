@@ -4,7 +4,7 @@ import TodoList from "./TodoList";
 
 //We defined the v4 method as uuidv4 (this creates random id)
 import { v4 as uuidv4 } from 'uuid';
-
+import './css/style.css';
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
 
@@ -54,13 +54,36 @@ function App() {
     }
 
 
+
+
     return (
      <>
-       <TodoList todos={todos} toggleTodo={toggleTodo}/>
-       <input ref={todoNameRef} placeholder="Enter A ToDo..." type="text" />
-       <button type="button" class="btn btn-primary" onClick={handleAddTodo}>Add Todo</button>
-       <button onClick={handleClearTodos}>Clear Completed Todos</button>
-       <div>{todos.filter(todo => !todo.complete).length} Left To Do.</div>
+         <div class="main">
+             <div className="container">
+                 <div className="todoTable">
+                     <table className="table table-striped table-hover">
+                         <thead>
+                         <tr className="row">
+                             <th className="col-2" scope="col">Check</th>
+                             <th className="col-10" scope="col">Task</th>
+                         </tr>
+                         </thead>
+                         <TodoList todos={todos} toggleTodo={toggleTodo}/>
+                     </table>
+
+                 </div>
+
+                 <div>
+                     <input ref={todoNameRef} placeholder="Enter A ToDo..." type="text"/>
+                     <button type="button" className="btn btn-primary" onClick={handleAddTodo}>Add Todo</button>
+                     <button className="btn btn-danger" onClick={handleClearTodos}>Clear Completed Todos</button>
+                 </div>
+
+                 <div>{todos.filter(todo => !todo.complete).length} Left To Do.</div>
+             </div>
+         </div>
+
+
      </>
 
     )}
